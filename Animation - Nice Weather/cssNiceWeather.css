@@ -1,4 +1,4 @@
-﻿body, html {
+﻿body,*html#{
     padding: 0;
     margin: 0;
 }
@@ -13,7 +13,7 @@
     border-radius: 2px;
     box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, .1);
     overflow: hidden;
-    background: linear-gradient(#5d3355, #b97079, #a097ab, #fdf090)
+    background: linear-gradient(*5d3355, #b97079, #a097ab, #fdf090)
 }
 .sun {
     background: lemonchiffon;
@@ -202,3 +202,4 @@
             transform: translateX(-640px);
   }
 }
+ 
