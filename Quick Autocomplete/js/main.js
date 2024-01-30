@@ -32,4 +32,4 @@ const outputHtml = matches => {
     }
 }
 
-search.addEventListener("input", () => searchStates(search.value));
+search.addEventListener("input", () => searchStates(search.value)); 
